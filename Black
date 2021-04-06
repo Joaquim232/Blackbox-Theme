@@ -1,0 +1,76 @@
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: black
+*button.appearance: parentrelative
+*button.foregroundColor: white
+
+*backgroundColor: #ffffff
+*color1: #000000
+*color2: #000000
+
+*font: Noto Sans-12:style=bold
+
+*borderColor: black
+*borderWidth: 1
+*marginWidth: 2
+
+menu.title.appearance: flat solid border
+menu.title.backgroundColor: white
+menu.title.foregroundColor: black
+menu.title.textColor: black
+menu.title.alignment: center
+menu.title.font: Noto Sans-10:style=Bold
+
+menu.frame.appearance: raised gradient border
+menu.frame.textColor: white
+menu.frame.foregroundColor: white
+menu.frame.disabledColor: white
+menu.frame.alignment: left
+
+menu.active.appearance: flat solid border
+menu.active.backgroundColor: white
+menu.active.foregroundColor: black
+menu.active.textColor: black
+
+rootCommand: bsetroot -solid #000000
+
+slit.appearance: raised solid
+slit.backgroundColor: #000000
+slit.marginWidth: 3
+
+toolbar.appearance: raised gradient border
+toolbar.alignment: center
+toolbar*textColor: white
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+
+window.title.focus.appearance: raised gradient border
+window.title.focus.color1: #000000
+window.title.focus.color2: #000000
+window.title.unfocus.appearance: raised gradient border
+window.title.unfocus.color1: #ffffff
+window.title.unfocus.color2: #ffffff
+window.title.borderWidth: 2
+
+window.label.focus.appearance: parentrelative
+window.label.focus.textColor: white
+window.label.unfocus.appearance: parentrelative
+window.label.unfocus.textColor: black
+window.label.marginWidth: 1
+
+window.button.focus.appearance: parentrelative
+window.button.focus.foregroundColor: white
+
+window.button.unfocus.appearance: parentrelative
+window.button.unfocus.foregroundColor: black
+
+window.handle.focus.appearance: raised solid border
+window.handle.unfocus.appearance: raised solid border
+
+window.grip.focus.appearance: raised solid border
+window.grip.focus.backgroundColor: rgb:77/77/74
+window.grip.unfocus.appearance: raised solid border
+
+window*alignment: center
+window.font: Noto Sans-11:style=Bold
+window.handleHeight: 13
